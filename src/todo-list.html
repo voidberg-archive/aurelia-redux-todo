@@ -1,0 +1,8 @@
+<template>
+  <require from='./todo'></require>
+  <section class="main">
+    <ul class='todo-list'>
+      <todo repeat.for='todo of todos' key='${$index}' todo.bind='todo' click.delegate='$parent.completeCallback($index)'></todo>
+    </ul>
+  </section>
+</template>

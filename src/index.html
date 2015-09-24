@@ -1,0 +1,15 @@
+<template>
+  <require from='./todo-add'></require>
+  <require from='./todo-list'></require>
+  <require from='./todo-footer'></require>
+  <div>
+    <section class="todoapp">
+		  <header id="header">
+			  <h1>todos</h1>
+        <todo-add add-callback.call='addClicked($event)'></todo-add>
+      </header>
+      <todo-list todos.bind='visibleTodos' complete-callback.call='completeTodo($event)' if.bind='visibleTodos.length'></todo-list>
+      <todo-footer filter.bind='visibilityFilter' visibility-callback.call='filterChanged($event)'></todo-footer>
+    </section>
+  </div>
+</template>

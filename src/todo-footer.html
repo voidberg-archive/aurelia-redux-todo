@@ -1,0 +1,18 @@
+<template>
+  <footer class="footer">
+    <ul class="filters">
+      <li>
+        <span if.bind='filter === "SHOW_ALL"'><a class="selected">All</a></span>
+        <span if.bind='filter !== "SHOW_ALL"'><a click.delegate='visibilityCallback("SHOW_ALL")'>All</a></span>
+      </li>
+      <li>
+        <span if.bind='filter === "SHOW_COMPLETED"'><a class="selected">Completed</a></span>
+        <span if.bind='filter !== "SHOW_COMPLETED"'><a click.delegate='visibilityCallback("SHOW_COMPLETED")'>Completed</a></span>
+      </li>
+      <li>
+        <span if.bind='filter === "SHOW_ACTIVE"'><a class="selected">Active</a></span>
+        <span if.bind='filter !== "SHOW_ACTIVE"'><a click.delegate='visibilityCallback("SHOW_ACTIVE")'>Active</a></span>
+      </li>
+    </ul>
+  </footer>
+</template>

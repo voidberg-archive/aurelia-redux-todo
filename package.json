@@ -78,7 +78,11 @@
       "bootstrap": "github:twbs/bootstrap@^3.3.4",
       "core-js": "npm:core-js@^0.9.4",
       "fetch": "github:github/fetch@^0.9.0",
-      "font-awesome": "npm:font-awesome@^4.3.0"
+      "font-awesome": "npm:font-awesome@^4.3.0",
+      "redux": "npm:redux@^2.0.0",
+      "redux-devtools": "npm:redux-devtools@^2.1.0",
+      "todomvc-app-css": "npm:todomvc-app-css@^2.0.1",
+      "todomvc-common": "npm:todomvc-common@^1.0.2"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.6.4",
