@@ -1,6 +1,6 @@
 # aurelia-redux-todo
 
-This is an implementation of the [Redux Todo Example](rackt.github.io/redux/docs/basics/ExampleTodoList.html) using Aurelia.
+This is an implementation of the [Redux Todo Example](https://rackt.github.io/redux/docs/basics/ExampleTodoList.html) using Aurelia.
 
 ## Running The App
 
