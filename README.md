@@ -1,3 +1,5 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 # aurelia-redux-todo
 
 This is an implementation of the [Redux Todo Example](https://rackt.github.io/redux/docs/basics/ExampleTodoList.html) using Aurelia.
